@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+form {
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding-left: 20px;
+}
+
+.arrow {
+    margin-top: 20px;
+    background-color: white;
+    border: 0;
+}
+
+.add-task {
+    height: 40px;
+    margin-top: 15px;
+    border: 0;
+    font-size: 18px;
+}
+
+.inputs {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+label {
+    font-size: 14px;
+
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.radio {
+    padding: 8px 15px;
+    color: rgb(233, 233, 233);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.Work {
+    background-color: dodgerblue;
+}
+
+.Personal {
+    background-color: springgreen;
+}
+
+.Shoping {
+    background-color: mediumvioletred;
+}
+
+.Healt {
+    background-color: crimson;
+}
+
+.Other {
+    background-color: purple;
+}
+
+.input {
+    visibility: hidden;
+}
+
+.radio {
+    cursor: pointer;
+    margin-left: -26px;
+}
+
+.radio:hover {
+    color: black;
+}
+
+.text-box {
+    height: 100px;
+    width: 270px;
+    border: 0;
+}
+
+.add-task-button {
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(178, 178, 178);
+    height: 30px;
+    width: 70px;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}

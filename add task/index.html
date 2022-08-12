@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form>
+        <button type="button" class="arrow"><img src="arrow-left.png" height="20px" width="12px" /></button><br>
+        <input placeholder="Add task" class="add-task">
+        <div class="inputs">
+            <label class="label-date label">Choose date</label><br>
+            <input type="date"><br>
+            <label class="label-time label">Choose time</label><br>
+            <input type="time"><br>
+            <label class="label-radio label">Choose task type</label><br>
+            <input type="radio" class="input" value='1' name='radio'>
+            <label class="Work radio">Work</label>
+            <input type="radio" class="input" value='2' name='radio'>
+            <label class="Personal radio">Personal</label>
+            <input type="radio" class="input" value='3' name='radio'>
+            <label class="Shoping radio">Shoping</label>
+            <input type="radio" class="input" value='4' name='radio'>
+            <label class="Healt radio">Healt</label>
+            <input type="radio" class="input" value='5' name='radio'>
+            <label class="Other radio">Other</label><br>
+            <label class="label-text label"> Write description</label><br>
+            <input type="text" class="text-box" placeholder="Description...">
+        </div>
+        <button class="add-task-button">add task</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
