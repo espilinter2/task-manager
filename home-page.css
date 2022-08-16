@@ -125,7 +125,8 @@ button {
     vertical-align: middle;
 }
 
-.tasks1 {
+
+/* .tasks1 {
     position: absolute;
     top: 27.5px;
     left: 70px;
@@ -158,13 +159,14 @@ button {
     border-radius: 50%;
     top: 5px;
     right: 5px;
-}
+} */
 
 /*------------------*/
 .tasks2 {
+    margin: auto;
     position: absolute;
-    top: 164px;
-    left: 70px;
+    /* top: 164px; */
+    left: 36%;
     width: 270px;
     height: 45px;
     background-color: white;
@@ -197,7 +199,7 @@ button {
 }
 
 /*------------------*/
-.tasks3 {
+/* .tasks3 {
     position: absolute;
     top: 301px;
     left: 70px;
@@ -230,10 +232,10 @@ button {
     border-radius: 50%;
     top: 5px;
     right: 5px;
-}
+} */
 
 /*------------------*/
-.tasks4 {
+/* .tasks4 {
     position: absolute;
     top: 346.5px;
     left: 70px;
@@ -266,4 +268,4 @@ button {
     border-radius: 50%;
     top: 5px;
     right: 5px;
-}
+} */

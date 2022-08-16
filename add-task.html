@@ -11,28 +11,31 @@
 
 <body>
     <form>
-        <button type="button" class="arrow"><img src="arrow-left.png" height="20px" width="12px" /></button><br>
+        <a href="home-page.html"><button type="button" class="arrow"><img src="arrow-left.png" height="20px"
+                    width="12px" /></button></a><br>
         <input placeholder="Add task" class="add-task">
         <div class="inputs">
             <label class="label-date label">Choose date</label><br>
-            <input type="date"><br>
+            <input class="date" type="date"><br>
             <label class="label-time label">Choose time</label><br>
-            <input type="time"><br>
+            <input class="time" type="time"><br>
             <label class="label-radio label">Choose task type</label><br>
-            <input type="radio" class="input" value='1' name='radio'>
+            <!--      -->
+            <input type="radio" class="input" value='Work' name='radio'>
             <label class="Work radio">Work</label>
-            <input type="radio" class="input" value='2' name='radio'>
+            <input type="radio" class="input" value='Personal' name='radio'>
             <label class="Personal radio">Personal</label>
-            <input type="radio" class="input" value='3' name='radio'>
+            <input type="radio" class="input" value='Shoping' name='radio'>
             <label class="Shoping radio">Shoping</label>
-            <input type="radio" class="input" value='4' name='radio'>
+            <input type="radio" class="input" value='Healt' name='radio'>
             <label class="Healt radio">Healt</label>
-            <input type="radio" class="input" value='5' name='radio'>
+            <input type="radio" class="input" value='Other' name='radio'>
             <label class="Other radio">Other</label><br>
+            <!--      -->
             <label class="label-text label"> Write description</label><br>
             <input type="text" class="text-box" placeholder="Description...">
         </div>
-        <button class="add-task-button">add task</button>
+        <button class="add-task-button" type="submit">add task</button>
     </form>
     <script src="add-task.js"></script>
 </body>

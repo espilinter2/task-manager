@@ -43,6 +43,8 @@ input {
     color: rgb(233, 233, 233);
     border-radius: 5px;
     font-size: 12px;
+    /* cursor: pointer; */
+    /* margin-left: -26px; */
 }
 
 .Work {
@@ -66,12 +68,7 @@ input {
 }
 
 .input {
-    visibility: hidden;
-}
-
-.radio {
-    cursor: pointer;
-    margin-left: -26px;
+    /* visibility: hidden; */
 }
 
 .radio:hover {
